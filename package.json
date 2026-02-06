@@ -7,7 +7,10 @@
     "lint": "eslint",
     "cypress": "cypress open",
     "cypress-console": "npx cypress run --headless",
-    "prepare": "husky"
+    "prepare": "husky",
+        "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +27,8 @@
     "globals": "^17.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.1",
+    "vite": "^7.3.1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

@@ -1,1 +1,3 @@
-npm cypress-console
+
+npm run lint
+npm run cypress-console
